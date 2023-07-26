@@ -17,7 +17,7 @@ namespace MyResume
         #endregion
 
 
-        #region Personal Details
+        #region Personal Details 
         public static string Name = "Nilesh Ahire";
         public static string Age = "22";
         public static string DOB = "30 Jul 2001";
