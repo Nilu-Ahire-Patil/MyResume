@@ -45,26 +45,26 @@
                 <!-- .nav-menu -->
             </header>
             <!-- End Header -->
-
+            
             <!-- ======= Hero Section ======= -->
             <section id="hero" class="d-flex flex-column justify-content-center">
                 <div class="container">
                     <h1 data-aos="fade-down" data-aos-delay="100">Nilesh Ahire</h1>
                     <p data-aos="fade-right" data-aos-delay="100">I'm <span class="typed" data-typed-items=" Developer, Designer, Freelancer, Photographer"></span></p>
                     <div class="social-links" data-aos="fade-up" data-aos-delay="100">
-                        <a href="#" class="google-plus"><i class="bx bxl-gmail"></i></a>
-                        <a href="#" class="download"><i class="bx bx-world"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        <a href="#" class="github"><i class="bx bxl-github"></i></a>
-                        <a href="#" class="download"><i class="bx bxs-download"></i></a>
+                        <a href="<%= MyResume.Cls_main.Email %>" class="google-plus"><i class="bx bxl-gmail"></i></a>
+                        <a href="<%= MyResume.Cls_main.Site %>" class="download"><i class="bx bx-world"></i></a>
+                        <a href="<%= MyResume.Cls_main.LinkedIn %>" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <a href="<%= MyResume.Cls_main.GitHub %>" class="github"><i class="bx bxl-github"></i></a>
+                        <a href="<%= MyResume.Cls_main.Rresume %>" class="download"><i class="bx bxs-download"></i></a>
                      </div>
                      <div class="social-links" data-aos="fade-up" data-aos-delay="100">
-                        <a href="#" class="Phone-Call"><i class="bx bxs-phone-call"></i></a>
-                        <a href="#" class="Map"><i class="bx bxs-map"></i></a>
-                        <a class="facebook" href="m.facebook.com/Niluahirepatil"><i class="bx bxl-meta"></i></a>
-                        <a href="https://t.me/Nilu_ahire_patil_96k" class="telegram"><i class="bx bxl-telegram"></i></a>
-                        <a href="https://wa.me/+919096977063" class="whatsapp"><i class="bx bxl-whatsapp-square"></i></a>
-                        <a href="https://www.instagram.com/nilu_ahire_patil_96k" class="instagram"><i class="bx bxl-instagram-alt"></i></a>
+                        <a href="<%= MyResume.Cls_main.Phone %>" class="Phone-Call"><i class="bx bxs-phone-call"></i></a>
+                        <a href="<%= MyResume.Cls_main.Map %>" class="Map"><i class="bx bxs-map"></i></a>
+                        <a href="<%= MyResume.Cls_main.Facebook %>" class="facebook"><i class="bx bxl-meta"></i></a>
+                        <a href="<%= MyResume.Cls_main.Teligram %>" class="telegram"><i class="bx bxl-telegram"></i></a>
+                        <a href="<%= MyResume.Cls_main.Whatapp %>" class="whatsapp"><i class="bx bxl-whatsapp-square"></i></a>
+                        <a href="<%= MyResume.Cls_main.Instagram %>" class="instagram"><i class="bx bxl-instagram-alt"></i></a>
                     </div>
                 </div>
             </section>
@@ -85,7 +85,7 @@
                                         <img src="../Images/about/nilu_ahire_patil.jpg" />
                                         <h2>Someone Famous<br />
                                             <span>Ds Developer</span></h2>
-                                        <a href="https://www.instagram.com/nilu_ahire_patil_96k">Hire Me</a>
+                                        <a href="<%= MyResume.Cls_main .LinkedIn %>">Hire Me</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,18 +97,18 @@
                                 <div class="row" data-aos="fade-left" data-aos-delay="200">
                                     <div class="col-lg-6">
                                         <ul>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Birthday:</strong> <span>30 Jul 2001</span></li>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Website:</strong> <span>www.niluahirepatil.bsite.net</span></li>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Phone:</strong> <span>+91 909697 4233 / 7063</span></li>
-                                            <li><i class="bi bi-chevron-right"></i><strong>City:</strong> <span>Nashik,maharashtra India</span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Birthday:</strong> <span><%=MyResume.Cls_main .DOB %></span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Website:</strong> <span><%=MyResume.Cls_main.Site %></span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Phone:</strong> <span><%=MyResume.Cls_main .Phone_1 %></span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>City:</strong> <span><%=MyResume.Cls_main.City %></span></li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6">
                                         <ul>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Age:</strong> <span>22</span></li>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Degree:</strong> <span>Master In Computer Science</span></li>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Email</strong> <span>Niluahirepatil@gmail.com</span></li>
-                                            <li><i class="bi bi-chevron-right"></i><strong>Current City:</strong> <span>Pune</span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Age:</strong> <span><%=MyResume.Cls_main .Age %></span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Degree:</strong> <span><%=MyResume.Cls_main.Education %></span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Email</strong> <span><%=MyResume.Cls_main .Mail_1 %></span></li>
+                                            <li><i class="bi bi-chevron-right"></i><strong>Current City:</strong> <span><%=MyResume.Cls_main .Current_City %></span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -251,41 +251,41 @@
                             <div class="col-lg-6">
                                 <h3 class="resume-title">Sumary</h3>
                                 <div class="resume-item pb-0" data-aos="fade-UP" data-aos-delay="100">
-                                    <h4>Nilesh Ahire</h4>
+                                    <h4><%= MyResume.Cls_main.Name %></h4>
                                     <p><em>Master in computer Science with experiance of 3+ live projects. 1years of experince in .NET</em></p>
                                     <ul>
-                                        <li>Baglan, Nampur Maharashtra 423212</li>
-                                        <li>+91 9096974233</li>
-                                        <li>+91 9096977063</li>
-                                        <li>Niluahirepatil@gmail.com</li>
-                                        <li>Workniluahirepatil@gmail.com</li>
+                                        <li><%=MyResume.Cls_main.Address %></li>
+                                        <li><%=MyResume.Cls_main.Phone_1 %></li>
+                                        <li><%=MyResume.Cls_main.Phone_2 %></li>
+                                        <li><%=MyResume.Cls_main.Mail_1 %></li>
+                                        <li><%=MyResume.Cls_main.Mail_2 %></li>
                                     </ul>
                                 </div>
 
                                 <h3 data-aos="fade-UP" data-aos-delay="100" class="resume-title">Education</h3>
                                 <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
-                                    <h4>Master of Computer Science </h4>
-                                    <h5>2022 - 2024</h5>
-                                    <p><em>savitribai phule pune university, pune</em></p>
-                                    <p>Currently pursuing Master's degree</p>
+                                    <h4><%= MyResume.Cls_main.Degree_1 %></h4>
+                                    <h5><%= MyResume.Cls_main.Year_1 %></h5>
+                                    <p><em><%= MyResume.Cls_main.Univercity_1 %></em></p>
+                                    <p><%= MyResume.Cls_main.Descrepction_1 %></p>
                                 </div>
-                                <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
-                                    <h4>Bachelor of Computer Science &amp; Statistical mathematics</h4>
-                                    <h5>2019 - 2022</h5>
-                                    <p><em>Mahatma Gandhi Vidyamandir's Maharaja Sayajirao Gaikwad Arts Science and Commerce College, Malegaon</em></p>
-                                    <p>I have done my graduation through this college and got 8.0 CGPA marks in this course</p>
+                                 <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
+                                    <h4><%= MyResume.Cls_main.Degree_2 %></h4>
+                                    <h5><%= MyResume.Cls_main.Year_2 %></h5>
+                                    <p><em><%= MyResume.Cls_main.Univercity_2 %></em></p>
+                                    <p><%= MyResume.Cls_main.Descrepction_2 %></p>
                                 </div>
-                                <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
-                                    <h4>Higher Secondary School</h4>
-                                    <h5>2017 - 2019</h5>
-                                    <p><em>Mahatma Gandhi Vidyamandir's Maharaja Sayajirao Gaikwad Arts Science and Commerce College, Nampur</em></p>
-                                    <p></p>
+                                 <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
+                                    <h4><%= MyResume.Cls_main.Degree_3 %></h4>
+                                    <h5><%= MyResume.Cls_main.Year_3 %></h5>
+                                    <p><em><%= MyResume.Cls_main.Univercity_3 %></em></p>
+                                    <p><%= MyResume.Cls_main.Descrepction_3 %></p>
                                 </div>
-                                <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
-                                    <h4>Secondary School</h4>
-                                    <h5>2015 - 2017</h5>
-                                    <p><em>Nampur English School, Nampur</em></p>
-                                    <p></p>
+                                 <div data-aos="fade-UP" data-aos-delay="100" class="resume-item">
+                                    <h4><%= MyResume.Cls_main.Degree_4 %></h4>
+                                    <h5><%= MyResume.Cls_main.Year_4 %></h5>
+                                    <p><em><%= MyResume.Cls_main.Univercity_4 %></em></p>
+                                    <p><%= MyResume.Cls_main.Descrepction_4 %></p>
                                 </div>
                             </div>
                             <div class="col-lg-6" data-aos="fade-UP" data-aos-delay="100">
@@ -461,17 +461,17 @@
                                     <div class="address">
                                         <i class="bi bi-geo-alt"></i>
                                         <h4>Location:</h4>
-                                        <p>Baglan Nashik Maharashtra India 423212</p>
+                                        <p><%= MyResume.Cls_main.Address %></p>
                                     </div>
                                     <div class="email">
                                         <i class="bi bi-envelope"></i>
                                         <h4>Email:</h4>
-                                        <p>niluahirepatil@gmail.com</p>
+                                        <p><%= MyResume.Cls_main.Mail_1 %></p>
                                     </div>
                                     <div class="phone">
                                         <i class="bi bi-phone"></i>
                                         <h4>Call:</h4>
-                                        <p>+91 9096974233</p>
+                                        <p><%= MyResume.Cls_main.Phone_1 %></p>
                                     </div>
                                 </div>
                             </div>
@@ -494,19 +494,19 @@
                                     <div class="form-group mt-3">
                                         <div class="inputbox">
                                             <asp:TextBox ID="txt_subject" CssClass="" required="required" runat="server"></asp:TextBox>
-                                            <span>subject</span>
+                                            <span>Subject</span>
                                             <i></i>
                                         </div>
                                     </div>
                                     <div class="form-group mt-3">
                                         <div class="inputbox">
                                             <asp:TextBox ID="txt_message" CssClass="input" required="required" runat="server"></asp:TextBox>
-                                            <span>message</span>
+                                            <span>Message</span>
                                             <i></i>
                                         </div>
                                     </div>
                                     <div class="text-center">
-                                        <asp:Button type="submit" CssClass="input"  ID="submit" runat="server" Text="Send" OnClick="submit_Click" />
+                                        <asp:Button type="Submit" CssClass="input"  ID="submit" runat="server" Text="Send" OnClick="submit_Click" />
                                     </div>
                                 </div>
                             </div>
@@ -519,21 +519,21 @@
             <!-- ======= Footer ======= -->
             <footer id="footer">
                 <div class="container">
-                    <h3>Nilesh Ahire</h3>
+                    <h3><%= MyResume.Cls_main.Name %></h3>
                     <p>Struggle you today is the strength you develop for tomorrow</p>
                     <div class="social-links">
-                        <a href="https://t.me/Nilu_ahire_patil_96k" class="telegram"><i class="bx bxl-telegram"></i></a>
-                        <a class="facebook" href="m.facebook.com/Niluahirepatil"><i class="bx bxl-facebook"></i></a>
-                        <a href="https://www.instagram.com/nilu_ahire_patil_96k/?utm_source=qr" class="instagram"><i class="bx bxl-instagram"></i></a>
-                       <a href="#" class="google-plus"><i class="bx bxl-gmail"></i></a>
-                        <a href="https://wa.me/+919096974233?text=hello%20Im%20Your%20site%20Visitor" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-                    </div>
+
+                        <a href="<%= MyResume.Cls_main.Facebook %>" class="facebook"><i class="bx bxl-meta"></i></a>
+                        <a href="<%= MyResume.Cls_main.Teligram %>" class="telegram"><i class="bx bxl-telegram"></i></a>
+                        <a href="<%= MyResume.Cls_main.Whatapp %>" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                        <a href="<%= MyResume.Cls_main.Instagram %>" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+                        </div>
                     <div class="copyright">
-                        &copy; Copyright <strong><span>NiluResume</span></strong>. All Rights Reserved
+                        &copy; Copyright <strong><span><%=MyResume.Cls_main .Name %></span></strong>. All Rights Reserved
                     </div>
                     <div class="credits">
-                       
-                        Designed by <a href="https://www.instagram.com/nilu_ahire_patil_96k/?utm_source=qr">NiluAhirePatil</a>
+                        Designed by <a href="<%= MyResume.Cls_main.LinkedIn  %>"><%=MyResume.Cls_main .Name %></a>
                     </div>
                 </div>
             </footer>
